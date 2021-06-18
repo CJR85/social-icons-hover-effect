@@ -11,3 +11,32 @@
   justify-content: center;
   background-color: #f2f2fe;
 }
+
+.icons a {
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 40px;
+  background: #fff;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icons a:nth-child(1) {
+  color: #1976d3;
+}
+
+.icons a:nth-child(2) {
+  color: #db6f44;
+}
+
+.icons a:nth-child(3) {
+  color: #000;
+}
+
+.icons a:nth-child(4) {
+  color: #03a9f5;
+}
