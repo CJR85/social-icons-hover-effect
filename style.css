@@ -25,6 +25,8 @@
 
   background-size: 100% 200%;
   background-position: 0% 5%;
+
+  transition: background-position 0.5s, color 0.5s;
 }
 
 .icons a:nth-child(1) {
@@ -45,4 +47,9 @@
 .icons a:nth-child(4) {
   color: #03a9f5;
   background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+}
+
+.icons a:hover {
+  background-position: 0% 100%;
+  color: #fff;
 }
