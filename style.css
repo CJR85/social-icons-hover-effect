@@ -20,23 +20,29 @@
   justify-content: center;
   text-decoration: none;
   font-size: 40px;
-  background: #fff;
   margin: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+  background-size: 100% 200%;
+  background-position: 0% 5%;
 }
 
 .icons a:nth-child(1) {
   color: #1976d3;
+  background-image: linear-gradient(#fff 50%, #1976d3 50%);
 }
 
 .icons a:nth-child(2) {
   color: #db6f44;
+  background-image: linear-gradient(#fff 50%, #db6f44 50%);
 }
 
 .icons a:nth-child(3) {
   color: #000;
+  background-image: linear-gradient(#fff 50%, #000 50%);
 }
 
 .icons a:nth-child(4) {
   color: #03a9f5;
+  background-image: linear-gradient(#fff 50%, #03a9f5 50%);
 }
